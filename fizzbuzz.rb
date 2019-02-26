@@ -8,6 +8,8 @@ def fizzbuzz(int)
     "Buzz"
   if int % 3 && 5 == 0
     "FizzBuzz"
+  if int.even
+    nil
   end
 end
 
