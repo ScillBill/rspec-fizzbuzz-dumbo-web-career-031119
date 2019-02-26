@@ -3,15 +3,15 @@
 def fizzbuzz(num)
   
   if num % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   
   elseif
     num % 3 == 0
-    puts "Fizz"
+    return "Fizz"
 
   elseif
     num % (3, 5) == 0
-    puts "FizzBuzz"
+    return "FizzBuzz"
   else
   num.even?
   return nil
