@@ -17,3 +17,4 @@ end
 fizzbuzz(9)
 fizzbuzz(25)
 fizzbuzz(15)
+fizzbuzz(4)
